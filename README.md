@@ -36,12 +36,21 @@
 - Android
 
 ### 1. 5 Implement
-- 상품 리스트를 ScrollView를 통해 상품 사진, 상품명, 가격등 정보 제공 -> `나의 주문목록, 장바구니 확인 버튼 위에 추가`
-- 제품의 상세 페이지를 통해 제품의 상세 내용 제공
-- 장바구니 기능을 통해 상품 개수 추가 or 감소, 삭제등 구매하기 전 장바구니 기능
-- 우편번호(주소) API를 사용하여 사용자에게 택배 보낼 주소 저장 기능
-- 주문목록에서 주문날짜, 주분정보, 주문취소, 배송조회등의 기능
-- 주문완료 페이지를 통해 최종 결제
+- UI를 꾸미기 위해 버튼 모양, edit text 모양 등 직접 디자인하여 색의 조합을 맞추고, 그림자 효과를 사용하여 애플리케이션에 더욱 입체감을 부여
+- 처음 접속 시 로그인하려면 회원가입을 해야 하며 회원가입 정보는 데이터베이스에 저장
+  ▶ 저장된 정보와 일치 시 로그인을 할 수 있고 아이디는 `SQL 질의 구문`을 사용한 중복확인 버튼을 통해 중복 불가
+- 회원 정보는 회원가입 화면에서 정보를 기재하면 데이터베이스의 사용자의 정보 저장
+- 홈 화면에는 사용자의 이름, 처음 예약된 기구의 예약 시간, 혼잡도, 예약된 기구, 사진 등의 정보가 출력
+- 기구 예약 화면에서는 운동 기구별로 시간 설정을 하여 예약을 할 수 있으며 예약된 시간이 일정표에 표시
+  ▶ 사용자는 자신이 원하는 색을 지정하여 더욱 쉽게 자신의 예약 정보를 확인
+- 기구 정보 화면에는 처음 접하거나 명칭을 잘 모르는 사람을 위해 기구별 정보와 사용 방법, 영상을 통해 설명 `Youtube API`
+  ▶ 만약 잘못된 자세 ex) 구부정한 자세, 앞으로 쏠린 자세 등)로 스쿼트를 하게 되면 잘못되었다는 경고 소리와 화면에 경고 표시가 표시되며
+     정상적인 동작을 수행했을 경우 카운트가 하나씩 증가
+  ▶ `Teachable Machine`에서 `JSON` 형식으로 변환한 학습된 코드를 HTML 부분으로 수정하여 `Squat` `Stand` `Bent` 부분의 가중치를 `0.9 ~ 1.0`
+     사이로 설정하여 조금 유하게 카운트가 될 수 있도록 설계하였고 `Sound툴`을 이용하여 녹음된 “잘못된 자세입니다.”를 Bent의 가중치가
+     1.0이 되면 경고음이 울리도록 설정
+  ▶ Squat 자세에서 Stand 자세로 바로 바뀌게 되면 Squat Count가 1씩 증가하도록 설계
+- 사용자 정보 화면에서는 회원가입시의 정보가 들어있고 정보를 수정하고 탈퇴할 수 있으며 처음 화면인 로그인 화면으로 전환 가능
 
 ## 2. Project Architecture   
 ```bash
@@ -102,7 +111,30 @@
 │   ├── fragment_reserve.xml
 │   ├── hour_label.xml
 │   └── row.xml
+```
 
+## 2. SubLime Text 3 & Teachable Machine HTML (JSON)
+```bash
+├── healthy_server
+│   ├── DeleteReserve.php
+│   ├── DeleteUser.php
+│   ├── LoadJsontoDB.php
+│   ├── LoadReserve.php
+│   ├── Logtest.php
+│   ├── Resievent.php
+│   ├── Resitest.php
+│   ├── UpdateEmail.php
+│   ├── Updatepw.php
+│   ├── UserValidate.php
+│   ├── bent.wav
+│   ├── dbcon.php
+│   ├── index.html
+│   ├── phpinfo.php
+│   └── sftp-config.json
+├── my_model
+│   ├── metadata.json
+│   ├── model.json
+│   └── weights.bin
 ```
 
 ## 3. MySQL   
