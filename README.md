@@ -6,7 +6,7 @@
 
 `kpostal (우편주소 API)` `Firebase` `Firestore Database` `SHA-256`
 
-# ▶ ! AWS 암호화키 때문에 따로 만든 포트폴리오 (본 코드는 Private으로 돌려놨습니다) 요금 과금 발생 방지 !
+## ▶ ! AWS 암호화키 때문에 따로 만든 포트폴리오 (본 코드는 Private으로 돌려놨습니다) 요금 과금 발생 방지 !
 
 ## 1. Co-Development Environment   
 ### 1. 1 Environments `Java 96.1%  PHP 2.2%  HTML 1.7%`
