@@ -22,7 +22,7 @@
 - Teachable Machine / HTML `Json 파일`
 - GitHub
 
-### 1. 2 System Diagram $ App Drawing
+### 1. 2 System Diagram & App Drawing
 
 ![구성도](https://github.com/shyang12/Healthy_portfolio/assets/85710913/bc9a41f8-c782-4860-b747-a01bae3a94a2)
 
