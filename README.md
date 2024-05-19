@@ -4,7 +4,7 @@
  - 안드로이드 스튜디오에서 Java를 기반으로 기구 예약 및 자세교정 서비스를 구현하는 프로젝트
  - 기구 정보(Youtube 영상)등 헬스 초보자도 쉽게 이용 가능
 
-`AWS EC@` `MySQL` `Youtube API` `Teachable Machine` `Linux` `Sublime Text 3`
+`AWS EC2` `MySQL` `Youtube API` `Teachable Machine` `Linux` `Sublime Text 3`
 
 ### ▶ ! AWS 암호화키 때문에 따로 만든 포트폴리오 (본 코드는 Private으로 돌려놨습니다) 요금 과금 발생 방지 !
 
