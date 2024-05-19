@@ -4,7 +4,7 @@
  - 안드로이드 스튜디오에서 Java를 기반으로 기구 예약 및 자세교정 서비스를 구현하는 프로젝트
  - 기구 정보(Youtube 영상)등 헬스 초보자도 쉽게 이용 가능
 
-`kpostal (우편주소 API)` `Firebase` `Firestore Database` `SHA-256`
+`AWS EC@` `MySQL` `Youtube API` `Teachable Machine` `Linux` `Sublime Text 3`
 
 ### ▶ ! AWS 암호화키 때문에 따로 만든 포트폴리오 (본 코드는 Private으로 돌려놨습니다) 요금 과금 발생 방지 !
 
@@ -22,15 +22,20 @@
 - Teachable Machine / HTML `Json 파일`
 - GitHub
 
-### 1. 3 System Diagram $ App Drawing
+### 1. 2 System Diagram $ App Drawing
 
 ![구성도](https://github.com/shyang12/Healthy_portfolio/assets/85710913/bc9a41f8-c782-4860-b747-a01bae3a94a2)
 
 
-### 1. 3 Driving
+### 1. 3 Teachable Machine Process of use
+
+![ㄴㅇㄹㄴㅇㄹ](https://github.com/shyang12/Healthy_portfolio/assets/85710913/11051066-3f9e-4148-8229-fcc57c6a8588)
+
+
+### 1. 4 Driving
 - Android
 
-### 1. 4 Implement
+### 1. 5 Implement
 - 상품 리스트를 ScrollView를 통해 상품 사진, 상품명, 가격등 정보 제공 -> `나의 주문목록, 장바구니 확인 버튼 위에 추가`
 - 제품의 상세 페이지를 통해 제품의 상세 내용 제공
 - 장바구니 기능을 통해 상품 개수 추가 or 감소, 삭제등 구매하기 전 장바구니 기능
@@ -123,3 +128,9 @@
 ## 4. Result
 
 ![결과](https://github.com/shyang12/Healthy_portfolio/assets/85710913/19d9bc24-66be-4e5e-866a-48dd6d5610d5)
+
+- 자세교정 영상
+
+https://github.com/shyang12/Healthy_portfolio/assets/85710913/f82ce9af-89b4-4e74-ab75-5ebe8cc76e81
+
+  
