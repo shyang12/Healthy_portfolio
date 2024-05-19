@@ -118,7 +118,7 @@
 │   └── row.xml
 ```
 
-## 2. SubLime Text 3 & Teachable Machine HTML (JSON)
+## 3. SubLime Text 3 & Teachable Machine HTML (JSON)
 ```bash
 ├── healthy_server
 │   ├── DeleteReserve.php
@@ -142,8 +142,8 @@
 │   └── weights.bin
 ```
 
-## 3. MySQL   
-### 3.1 MySQL Database
+## 4. MySQL   
+### 4.1 MySQL Database
 ```bash
 ├── users
 │    ├── name
@@ -162,7 +162,7 @@
 │    └── color
 ```
 
-## 4. Result
+## 5. Result
 
 ![결과](https://github.com/shyang12/Healthy_portfolio/assets/85710913/19d9bc24-66be-4e5e-866a-48dd6d5610d5)
 
