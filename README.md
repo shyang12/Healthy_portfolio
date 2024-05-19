@@ -17,9 +17,6 @@
 - Linux `Ubuntu`
 - SubLime Text 3 / PHP
 - Teachable Machine / HTML `Json 파일`
-
-![teachable machine](https://github.com/shyang12/Healthy_portfolio/assets/85710913/55d262fc-9d5e-4418-905c-251d4b6bd0d5)
-
 - GitHub
 
 ### 1. 2 Driving
@@ -125,6 +122,5 @@
 ```
 
 ## 4. Result
-- 제품 리스트 페이지
 
-![제품리스트](https://github.com/shyang12/ShoppingMall/assets/85710913/7b9fb0da-a6e5-4a52-bec0-85ba46766979)
+![결과](https://github.com/shyang12/Healthy_portfolio/assets/85710913/19d9bc24-66be-4e5e-866a-48dd6d5610d5)
