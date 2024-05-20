@@ -4,7 +4,7 @@
  - 안드로이드 스튜디오에서 Java를 기반으로 기구 예약 및 자세교정 서비스를 구현하는 프로젝트
  - 기구 정보(Youtube 영상)등 헬스 초보자도 쉽게 이용 가능
 
-`AWS EC2` `MySQL` `Youtube API` `Teachable Machine` `Linux` `Sublime Text 3`
+`AWS EC2` `MySQL` `Youtube API` `Teachable Machine` `Linux` `Sublime Text 3` `Figma`
 
 ### ▶ ! AWS 암호화키 때문에 따로 만든 포트폴리오 (본 코드는 Private으로 돌려놨습니다) 요금 과금 발생 방지 !
 
@@ -14,6 +14,7 @@
 ## 1. Co-Development Environment   
 ### 1. 1 Environments `Java 96.1%  PHP 2.2%  HTML 1.7%`
 - Windows 10
+- Figma
 - Android Studio / Java
 - MySQL
 - AWS EC2
@@ -37,7 +38,7 @@
 
 ### 1. 5 Implement
 - AWS EC2 서버를 활용하여 `nginx`를 통해 리눅스 서버`Ubuntu`를 구축하고 `MySQL` `PHP`를 리눅스 서버에 설치하여 통합한 서버 구축
-- UI를 꾸미기 위해 버튼 모양, edit text 모양 등 직접 디자인하여 색의 조합을 맞추고, 그림자 효과를 사용하여 애플리케이션에 더욱 입체감을 부여
+- UI를 꾸미기 위해 버튼 모양, edit text 모양 등 직접 디자인하여 색의 조합을 맞추고, 그림자 효과를 사용하여 애플리케이션에 더욱 입체감을 부여 -> `Figma 디자인 협업 툴 사용`
 - 처음 접속 시 로그인하려면 회원가입을 해야 하며 회원가입 정보는 데이터베이스에 저장
 
   ▶ 저장된 정보와 일치 시 로그인을 할 수 있고 아이디는 `SQL 질의 구문`을 사용한 중복확인 버튼을 통해 중복 불가
